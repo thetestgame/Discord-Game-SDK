@@ -1,19 +1,10 @@
 # Discord Game SDK for Unity
 
-<p align="center">
-    <a href="https://discordapp.com/developers/docs/game-sdk/sdk-starter-guide">
-        <img src="https://img.shields.io/badge/docs-passing-brightgreen.svg" alt="Docs">
-    </a>
-    <a href="https://discord.gg/discord-gamesdk">
-        <img src="https://discordapp.com/api/guilds/151219753434742784/widget.png" alt="Offiical Discord Server">
-    </a>
-</p>
-
 The [Discord Game SDK](https://discordapp.com/developers/docs/game-sdk/sdk-starter-guide)
 repackaged as a Unity Package. For API documentation, please refer to the
 official Discord API docs.
 
-This package is up to date with the official SDK as of September 16th, 2020.
+This package is up to date with the official SDK as of March 3rd, 2023.
 
 ## Info
 
@@ -28,28 +19,6 @@ This package is up to date with the official SDK as of September 16th, 2020.
   - When you are ready to test with more people, add them to the whitelist.
 - Copy the **Client ID**.
   - Use this `CLIENT_ID` when initializing the SDK.
-
-## Installation
-
-Installation of this package requires Unity 2018.3 or higher.
-
-Under `Packages/manifest.json`, add the following lines, then open the Unity
-Editor. Note: this will add a scoped registry to your project.
-
-```json
-{
-  "dependencies": {
-    "com.discord.game-sdk": "2.5.6"
-  },
-  "scopedRegistries": [
-    {
-      "name": "Hourai Teahouse",
-      "url": "https://upm.houraiteahouse.net",
-      "scopes": ["com.discord"]
-    }
-  ]
-}
-```
 
 ## License
 
