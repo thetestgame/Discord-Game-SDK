@@ -108,6 +108,13 @@ namespace Discord
         Spectate,
     }
 
+    public enum ActivitySupportedPlatformFlags
+    {
+        Desktop = 1,
+        Android = 2,
+        iOS = 4,
+    }
+
     public enum ActivityJoinRequestReply
     {
         No,
@@ -330,6 +337,8 @@ namespace Discord
         public ActivitySecrets Secrets;
 
         public bool Instance;
+
+        public UInt32 SupportedPlatforms;
     }
 
     [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Ansi)]
