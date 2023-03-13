@@ -1,8 +1,10 @@
 {
     "name": "Discord",
+    "rootNamespace": "",
     "references": [],
     "includePlatforms": [
         "Editor",
+        "LinuxStandalone64",
         "macOSStandalone",
         "WindowsStandalone64"
     ],
